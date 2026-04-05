@@ -25,6 +25,10 @@ The dataset has the following fields regarding students: field of study, graduat
 
 The naïve benchmark is a baseline model, which has no real learning/hasn't really learned anything yet from your data.
 
-In this type of classification problem (very likely predicting something like default/no default), the naïve approach is - always predict the most common class in the dataset.
+In this type of classification problem (very likely predicting something like default/no default), the naïve approach is - always predict the most common class in the dataset. 
+
+Example: If 70% of students do not default and 30% do default, then the naïve model simply predicts 'no default' for every single case. 
+
+The naïve benchmark tells you the minimum performance your real model must beat. It acts as a reference point for whether your model is actually learning anything meaningful. 
 
 
