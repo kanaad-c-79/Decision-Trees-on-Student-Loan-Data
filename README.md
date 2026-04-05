@@ -22,3 +22,7 @@ We used a Student Loan dataset to Predict Defaults for student loan Applications
 7) Chose the appropriate tree depth and justified the choice. -> Re-trained the best classifier using all the samples - from both the training and the validation set. -> Retrained the best classifier on all the samples (including the test set) - and described the tree that we obtained.
 
 The dataset has the following fields regarding students: field of study, graduation year, loan amount, gender, whether they've defaulted.
+
+The naïve benchmark is a baseline model, which has no real learning/hasn't really learned anything yet from your data.
+
+
