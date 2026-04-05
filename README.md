@@ -11,4 +11,5 @@ The basic idea behind this algorithm for classification via decision trees:
 a) There are no more instances/tuples; b) There are no more remaining attributes; c) All the tuples/instances belong to the same attribute value.
 
 # Predict Defaults for Student Loans applications
-
+We used a Student Loan dataset to Predict Defaults for student loan Applications using regression trees - performing the following steps:
+1) 
