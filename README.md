@@ -37,6 +37,14 @@ The naïve benchmark tells you the minimum performance your real model must beat
 
 ......................................
 
+(from sklearn import tree, ensemble)
 
+clf (classifier) = tree.DecisionTreeClassifier()
+
+clf.fit(X_train,y_train) <- trained our classifier on the X and y training datasets, so that it can learn from them.
+
+clf.score(X_train,y_train)// clf.score(X_val,y_val) ......................
+
+......................................
 
 
